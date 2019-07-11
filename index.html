@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+    <div class="quiz">
+    <h1>QUIZ!</h1>
+
+    <div class="question">
+    <label>What is our country name?</label><br>
+    <input type="radio" name="country">England<br>
+    <input type="radio" name="country" id="pakistan" onclick="pakistan()" value="country">Pakistan<br>
+    <input type="radio" name="country">Afghanistan<br>
+</div>
+   
+<div class="question">
+    <label>What is our city name?</label><br>
+    <input type="radio" name="city"  value="peshawar">Peshawar<br>
+    <input type="radio" name="city"  value="sialkot"> Sialkot<br>
+    <input type="radio" name="city" id="karachi" value="karachi" onclick="karachi()" >Karachi<br>
+</div>
+   
+<div class="question">
+    <label>What is colour of our national flag?</label><br>
+    <input type="radio" name="flag">red and yellow<br>
+    <input type="radio" name="flag" id="green" value="flag" onclick="greenandwhite()">green and white<br>
+    <input type="radio" name="flag">blue and orange<br>
+</div>
+   
+<div class="question">
+    <label>What is our national game?</label><br>
+    <input type="radio" name="game" id="hockey" value="game" onclick="feildhockey()">Feild Hockey<br>
+    <input type="radio" name="game">Cricket<br>
+    <input type="radio" name="game">Football<br>
+</div>
+    
+<div class="question">
+    <label>What is our national flower?</label><br>
+    <input type="radio" name="flower"> Marrygold<br>
+    <input type="radio" name="flower" id="jasmine" value="flower" onclick="jasmine()">Jasmine<br>
+    <input type="radio" name="flower">Sunflower<br>
+</div>
+    </div>
+<div>
+  
+   
+    <button onclick="checkCity()">submit</button>
+</div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

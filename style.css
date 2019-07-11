@@ -1,0 +1,9 @@
+.quiz{
+    background-color: aqua;
+    color: black;
+    text-align: -webkit-center;
+}
+.question{
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
